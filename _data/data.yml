@@ -57,9 +57,12 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    • Full-stack developer at Gachon Biomedical and Convergence Institute Biomedical Engineering lab. <br>
-    • Experienced with SPA web development from zero to production, Docker containers, Git version control, and Nginx servers. <br>
-    • Experienced with ReactJS and NextJS frameworks.
+      - Advanced in SPA development with ReactJS and NextJS, proficient in containerization with Docker, and adept at server management using Nginx.
+      - Developed canvas drawing tools for a medical image labeling system, enhancing user interaction and data annotation capabilities.
+      - Database management expertise with MySQL, PostgreSQL, and MongoDB, ensuring data integrity and performance.
+      - Backend development with FastAPI, integrated with Celery for task scheduling, AI model serving/inferencing, and containerization of AI models for scalable deployment.
+      - Commitment to code quality and application reliability, demonstrated through testing with Jest and Cypress, and adherence to coding standards with linting tools.
+      - Leadership and mentorship showcased at Gachon University's Biomedical Engineering lab, directing junior developers and facilitating partnerships for medical technology advancements.
 education:
   title: Education
   info:
@@ -112,52 +115,121 @@ experiences:
       time: "2023.01 – current"
       company: Gachon University of Medicine and Science, Biomedical Engineering R&D center, Incheon, Korea
       details: |
-        Developed an educational web platform dedicated to fostering proficiency in artificial intelligence. The platform integrates a Docker container-based system, enabling an accessible online development environment. Utilized Next.js for the frontend, with Next.js API and FastAPI for the backend. Employed GraphQL for communication, MongoDB for data storage, and Redis for statistical data handling. Configured Nginx for routing.
+        - Led a team of junior developers, providing mentorship, training, and oversight to foster their professional growth and ensure project standards.
+        - Collaborated with external companies to integrate their technologies into our platform, ensuring seamless interoperability and expanding our feature set.
+        - Engineered an educational web platform to enhance artificial intelligence learning, incorporating a Docker-based online development environment for accessible and interactive user experiences.
+        - Implemented the frontend using Next.js with TypeScript and styled with Tailwind CSS, ensuring a modern and responsive design.
+        - Developed the backend services using Next.js API and FastAPI, and established GraphQL as the communication protocol for seamless data exchange.
+        - Managed the database architecture with MongoDB for document storage and InfluxDB for time-series data handling.
+        - Deployed the entire platform on Docker, optimizing for scalability and ease of updates.
+        - Configured Nginx for efficient request routing and load balancing.
+        - Set up a comprehensive monitoring suite with Grafana, Prometheus, and Node-exporter to track system performance and user metrics.
 
-        - Frontend: Nextjs, GraphQL, TypeScript, Tailwind
-        - Backend: Nextjs API, FastAPI
+        Technical Proficiencies:
+        - Frontend: Next.js, GraphQL, TypeScript, Tailwind CSS
+        - Backend: Next.js API, FastAPI
         - Database: MongoDB, InfluxDB
         - Deployment: Docker
         - Network: Nginx
         - Monitoring: Grafana, Prometheus, Node-exporter
 
+
     - role: Full-stack Developer, Researcher
       time: "2022.06 – 2022.10"
-      company: Gachon University of Medicine and Science, Biomedical Engineering R&D center, Incheon, Korea
+      company: Gachon University of Medicine and Science, Biomedical Engineering R&D Center, Incheon, Korea
       details: |
-        Developing a web application for medical image segmentation, labeling, and calculation. Utilized a U-net model for image processing, deployed on a GPU server. Managed medical images in DICOM format using Orthanc server integrated into an image viewer behind a Nginx server for CORS requests. The frontend was deployed in Docker containers on AWS servers.
-
+        - Developed a Next.js web application for medical image segmentation, labeling, 
+        and calculation. Utilized a U-net model for image processing, deployed on a GPU 
+        server.
+        - Managed medical images in DICOM format using Orthanc server integrated into an 
+        image viewer behind a Nginx server for CORS requests. 
+        - The frontend was deployed in Docker containers on AWS servers.
+        - Developed a FastAPI-based web server for AI model inferencing, enhancing the 
+        system's efficiency and scalability.
+        - Implemented a load scheduler using Celery to manage task queues and a monitoring 
+        system with Flower to oversee task execution and resource usage.
+      
+        Technical Proficiencies:
         - Frontend: NextJS, Redux, Saga
-        - Backend: ExpressJS, Socket.io
+        - Backend: ExpressJS, FastAPI, Socket.io
+        - Task Queue: Celery
+        - Monitoring: Flower
         - Database: MySQL
         - Deployment: Docker, AWS
         - Network: Nginx
         - Image server: Orthanc
         - Image processing: U-net
+        - Demo Video: https://youtu.be/dxHxjgpG3-0
+
 
     - role: Full-stack Developer, Researcher
       time: "2021.09 – 2022.05"
       company: Deep Inspection Co. Ltd, Seoul, Korea
       details: |
-        Developed a web application utilizing a Mask R-CNN based semantic segmentation model for the detection of rust on reused scaffolding. Tuned the Mask R-CNN model for a custom dataset by weighting each branch of the model.
-
+        - Developed a sophisticated React web application for detecting rust on reused
+        scaffolding, leveraging GPU servers and a Mask R-CNN-based semantic
+        segmentation model. 
+        - Implemented REST API for efficient data requests and utilized Socket.io 
+        for real-time progress updates from the GPU server.
+        - Enhanced user interface with Bootstrap and custom CSS, and developed features
+        for file upload/download, as well as 2D and 3D visualization capabilities.
+        - Fortified application security by integrating a JWT token-based
+        authentication system. 
+        - Managed React state using the Mobx library and employed Mask R-CNN with Dice 
+        Loss for precise segmentation and rust area calculation. 
+        - Authored a scientific paper on the application’s technology, contributing
+        to the field's literature.
+      
+        Technical Proficiencies:
         - Frontend: ReactJS, Mobix, Bootstrap
         - Backend: ExpressJS, Socket.io
         - Database: PostgreSQL
-        - Image processing: Mask R-CNN
+        - Image Processing: Mask R-CNN
+        - Demo Video: https://youtu.be/j6_R4cZ_sm4
         - Code: https://github.com/aksovius/scaffolding.git
         - Paper: https://doi.org/10.3390/app121910097
+
+    # - role: Internal Document Management System Developer
+    #   time: "2021.01 – 2023.06"
+    #   company: Deep Inspection Co. Ltd, Seoul, Korea
+    #   details: >
+    #     Engineered an internal React web application for document management,
+    #     featuring REST API, MongoDB database integration, JWT authentication,
+    #     real-time search, file upload/download capabilities, and user activity
+    #     logging. Applied MaterialUI for a responsive and user-friendly interface,
+    #     ensuring an optimal user experience. Built and maintained a robust backend
+    #     using ExpressJS to handle complex document management workflows.
+
+    #     - Frontend: ReactJS, Mobix, MaterialUI
+    #     - Backend: ExpressJS
+    #     - Database: MongoDB
+    #     - Code: https://github.com/aksovius/fms.git
 
     - role: Research Assistant
       time: "2020.03 – 2021.08"
       company: Construction management Lab, Suwon, Korea
       details: |
-        Developed a concrete crack detection application based on the U-net semantic segmentation model.
-
-        - Frontend: Streamlit
-        - Image processing: U-net
-        - Framework: Tensorflow
-        - Code: https://github.com/aksovius/concrete-crack-detection.git
+        - Spearheaded the development of a concrete crack detection application utilizing the U-net semantic segmentation model, enhancing the ability to identify structural issues in concrete efficiently.
+        - Designed and implemented a unique and innovative web system that automated the inspection of construction scaffolding as part of a scientific research project under the Ministry of Land, Infrastructure, and Transport of Korea.
+        - Contributed to the development of an intelligent artificial intelligence system equipped with defect detection functionality through the application of semantic segmentation technology.
+        - Authored and successfully published a paper in an international SCI journal, based on the research achievements, contributing to the body of knowledge in the field of construction management and artificial intelligence.
+        
+        Technical Proficiencies:
+        - Frontend Development: Streamlit
+        - Image Processing: Specialized in U-net architecture
+        - Machine Learning Framework: Proficient in TensorFlow
+        - Code: https://github.com/aksovius/fms.gitn
+              
+    - role: Medical Equipment Engineer
+      time: "2018.01 – 2020.03"
+      company: Medonica Co. Ltd, Seoul, Korea
+      details: |
+        - Expertly assembled and calibrated X-ray and Bone Mineral Density (BMD) systems, ensuring technical precision and operational excellence.
+        - Performed delicate soldering of electrical microcircuits for X-ray equipment, demonstrating meticulous attention to detail and commitment to high-quality workmanship.
+        - Carried out comprehensive testing on medical imaging devices to validate functionality and adherence to industry standards.
+        - Managed calibration of Toshiba X-ray tubes and generators, as well as the installation of Toshiba and Bontech digital detectors, emphasizing accuracy and reliability.
+        - Facilitated effective communication between Korean and Russian technical teams during the installation, calibration, and maintenance of medical equipment.
+        - Directed the import/export documentation for medical devices, maintaining strict compliance with international trade laws and regulations.
 
 # experiences:
 #   title: Experiences
