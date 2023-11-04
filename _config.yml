@@ -8,7 +8,7 @@ url: 'https://alexanderkim.dev'
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: A beautiful Jekyll theme for creating resume
+description: Alexander Kim - Experienced Web Developer specializing in front-end technologies and clinical data analysis. Explore my portfolio, research works, and professional journey on my personal CV website.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar

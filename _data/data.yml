@@ -3,271 +3,343 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alexander Kim
-    tagline: Full Stack Developer
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Alexander Kim
+  tagline: Full Stack Developer
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: aksovius@naver.com
-    phone: +82 10 8698 2994
-    timezone: Asia/Seoul Timezone
-    citizenship:
-    website: alexanderkim.dev #do not add http://
-    linkedin: aksovius
-    #xing: alandoe
-    github: aksovius
-    #telegram: # add your nickname without '@' sign
-    #gitlab:
-    #bitbucket:
-    #twitter: 
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: aksovius@naver.com
+  #phone: +82 10 8698 2994
+  timezone: Asia/Seoul Timezone
+  citizenship:
+  website: alexanderkim.dev #do not add http://
+  linkedin: aksovius
+  #xing: alandoe
+  github: aksovius
+  #telegram: # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  #twitter:
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #codewars:
+  #goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: 'https://alexanderkim.dev/print'
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Professional
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Professional
 
-        - idiom: Korean
-          level: Professional
+      - idiom: Korean
+        level: Professional
 
-        - idiom: Russian
-          level: Native
+      - idiom: Russian
+        level: Native
 
-    interests:
-      title: Interests
-      info:
-        - item: Computer Vision
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Computer Vision
+        link:
 
-        - item: Cycling
-          link:
+      - item: Cycling
+        link:
 
-        - item: Eating pizza
-          link:
+      - item: Eating pizza
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      • Full-stack developer at Gachon Biomedical and Convergence Institute Biomedical Engineering lab. <br>
-      • Experienced with SPA web development from zero to production, Docker containers, Git version control, and Nginx servers. <br>
-      • Experienced with ReactJS and NextJS frameworks.
+  title: Career Profile
+  summary: |
+    • Full-stack developer at Gachon Biomedical and Convergence Institute Biomedical Engineering lab. <br>
+    • Experienced with SPA web development from zero to production, Docker containers, Git version control, and Nginx servers. <br>
+    • Experienced with ReactJS and NextJS frameworks.
 education:
-    title: Education
-    info:
-      - degree: BSc in Computer Science
-        university: Korean Open University
-        time: 2023 - now
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: MS in Smart Cities
-        university: Sungkyunkwan University
-        time: 2020 - 2022
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BS in Civil and Environmental Engineering
-        university: National Nuclear Research University (MEPhI)
-        time: 2008 - 2013
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Education
+  info:
+    - degree: BSc in Computer Science
+      university: Korean Open University
+      time: 2023 - now
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: MS in Smart Cities
+      university: Sungkyunkwan University
+      time: 2020 - 2022
+      details: |
+        My Master's degree in Smart City, under the expert supervision of Professor
+        Soonwook Kwon, was a rigorous academic endeavor that honed my expertise in the
+        niche field of Smart Construction Management. My thesis, titled "Synthetic Data
+        and Computer-Vision-Based Automated Quality Inspection System for Reused
+        Scaffolding," underscored my commitment to advancing computer vision
+        applications in the construction industry.
 
+          - Developed a novel system to automate the quality inspection of scaffolding
+            materials using state-of-the-art computer vision techniques, significantly
+            reducing inspection time and improving safety standards.
+          - Pioneered the use of synthetic data to train machine learning models,
+            overcoming the challenges of data scarcity in the construction field.
+          - Contributed to the body of knowledge in smart construction by integrating
+            advanced computer vision algorithms into practical tools for smart city
+            development.
+
+    - degree: Specialist in Civil and Environmental Engineering
+      university: National Nuclear Research University (MEPhI)
+      time: 2008 - 2013
+      # details: |
+      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #   pretium quis, sem.
+      #     - Bullet point
+      #     - Bullet point
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiences
+  info:
+    - role: Full-stack Developer, Researcher
+      time: "2023.01 – current"
+      company: Gachon University of Medicine and Science, Biomedical Engineering R&D center, Incheon, Korea
+      details: |
+        Developed an educational web platform dedicated to fostering proficiency in artificial intelligence. The platform integrates a Docker container-based system, enabling an accessible online development environment. Utilized Next.js for the frontend, with Next.js API and FastAPI for the backend. Employed GraphQL for communication, MongoDB for data storage, and Redis for statistical data handling. Configured Nginx for routing.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - Frontend: Nextjs, GraphQL, TypeScript, Tailwind
+        - Backend: Nextjs API, FastAPI
+        - Database: MongoDB, InfluxDB
+        - Deployment: Docker
+        - Network: Nginx
+        - Monitoring: Grafana, Prometheus, Node-exporter
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+    - role: Full-stack Developer, Researcher
+      time: "2022.06 – 2022.10"
+      company: Gachon University of Medicine and Science, Biomedical Engineering R&D center, Incheon, Korea
+      details: |
+        Developing a web application for medical image segmentation, labeling, and calculation. Utilized a U-net model for image processing, deployed on a GPU server. Managed medical images in DICOM format using Orthanc server integrated into an image viewer behind a Nginx server for CORS requests. The frontend was deployed in Docker containers on AWS servers.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - Frontend: NextJS, Redux, Saga
+        - Backend: ExpressJS, Socket.io
+        - Database: MySQL
+        - Deployment: Docker, AWS
+        - Network: Nginx
+        - Image server: Orthanc
+        - Image processing: U-net
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: Full-stack Developer, Researcher
+      time: "2021.09 – 2022.05"
+      company: Deep Inspection Co. Ltd, Seoul, Korea
+      details: |
+        Developed a web application utilizing a Mask R-CNN based semantic segmentation model for the detection of rust on reused scaffolding. Tuned the Mask R-CNN model for a custom dataset by weighting each branch of the model.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - Frontend: ReactJS, Mobix, Bootstrap
+        - Backend: ExpressJS, Socket.io
+        - Database: PostgreSQL
+        - Image processing: Mask R-CNN
+        - Code: https://github.com/aksovius/scaffolding.git
+        - Paper: https://doi.org/10.3390/app121910097
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - role: Research Assistant
+      time: "2020.03 – 2021.08"
+      company: Construction management Lab, Suwon, Korea
+      details: |
+        Developed a concrete crack detection application based on the U-net semantic segmentation model.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - Frontend: Streamlit
+        - Image processing: U-net
+        - Framework: Tensorflow
+        - Code: https://github.com/aksovius/concrete-crack-detection.git
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# experiences:
+#   title: Experiences
+#   info:
+#     - role: Lead Developer
+#       time: 2015 - Present
+#       company: Startup Hubs, San Francisco
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+#         enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+#         error sit voluptatem accusantium doloremque laudantium, totam rem
+#         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+#         architecto beatae vitae dicta sunt explicabo.
+#           - Bullet point
+#           - Bullet point
+#     - role: Senior Software Engineer
+#       time: 2014 - 2015
+#       company: Google, London
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+#     - role: UI Developer
+#       time: 2012 - 2014
+#       company: Amazon, London
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# certifications:
+#   title: Certifications
+#   list:
+#     - name: CV Builder
+#       start: 2020
+#       end: 2021
+#       organization: Microsoft
+#       credentialid: 111-222
+#       credentialurl: www.google.com
+#       credentialname: Google
+#       details: |
+#         Details about cert. Lorem ipsum dolor sit amet, consectetur
+#         adipiscing elit.
+#         Nullam eget orci purus. Nullam ultrices neque nibh.
+#         Aenean fermentum, felis vulputate suscipit accumsan,
+#         sem enim bibendum augue, sed convallis arcu lacus at dui.
+#         Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#         Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#         Praesent venenatis erat non augue suscipit consectetur.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#         Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#         fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#         justo diam viverra velit, sed rhoncus leo leo eu justo.
+#         Suspendisse placerat risus ante, sed porta nisi blandit at.
+#     - name: Git learning
+#       start: 2019
+#       end:
+#       organization: Microsoft
+#       credentialid: 111-222
+#       credentialurl: www.github.com
+#       credentialname: Github
+#       details: |
+#         Older certification. Lorem ipsum dolor sit amet, consectetur
+#         adipiscing elit.
+#         Nullam eget orci purus. Nullam ultrices neque nibh.
+#         Aenean fermentum, felis vulputate suscipit accumsan,
+#         sem enim bibendum augue, sed convallis arcu lacus at dui.
+#         Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#         Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#         Praesent venenatis erat non augue suscipit consectetur.
+
+# projects:
+#   title: Projects
+#   intro: >
+#     You can list your side projects in this
+#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   assignments:
+#     - title: Velocity
+#       link: "#hook"
+#       tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#     - title: DevStudio
+#       link: "#"
+#       tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#     - title: Tempo
+#       link: "#"
+#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#     - title: Atom
+#       link: "#"
+#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#     - title: Delta
+#       link: "#"
+#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this
+#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#     - title: Tempo
+#       link: "#"
+#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#     - title: Atom
+#       link: "#"
+#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#     - title: Delta
+#       link: "#"
+#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+  # intro: |
+  #   You can list your publications in this section. Lorem ipsum dolor sit
+  #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #   bibendum fringilla a eu lectus.
+  papers:
+    - title: "Synthetic Data and Computer-Vision-Based Automated Quality Inspection System for Reused Scaffolding"
+      link: "https://doi.org/10.3390/app121910097"
+      authors: "Kim, A.; Lee, K.; Lee, S.; Song, J.; Kwon, S.; Chung, S."
+      conference: "Appl. Sci. 2022, 12, 10097"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - title: "Development of User Interface for Temporary Structure Quality Evaluation System Based on Multiple Sensing and BIM Model"
+      link: "#"  # Replace with actual link if available
+      authors: "Kim A., Zhu Z., Lee K., Mun T., Kwon S."
+      conference: "The 26th Winter Conference of Society for Computational Design and Engineering, Korea"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: "Automated On-Site Quality Inspection and Reporting Technology for Off-Site Construction (OSC)-based Precast Concrete Members"
+      link: "#"  # Replace with actual link if available
+      authors: "Lee S., Kwon S., Jeong M., Hasan M., and Kim A."
+      conference: "Proceedings of the 37th ISARC, Kitakyushu, Japan, p 1152-1159, ISBN 978-952-94-3634-7, ISSN 2413-5844, 2020"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
 
-      - name: Javascript & jQuery
-        level: 98%
+  - name: Javascript & Typescript
+    level: 98%
 
-      - name: Angular
-        level: 98%
+  - name: NextJS & ReactJS
+    level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+  - name: Python & FastAPI
+    level: 98%
 
-      - name: Ruby on Rails
-        level: 85%
+  - name: HTML5 & CSS
+    level: 95%
+  
+  - name: Docker
+    level: 95%
+  
+  - name: Git
+    level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+  - name: Nginx
+    level: 95%
+  
+  - name: Linux
+    level: 95%
+  
+  - name: SQL
+    level: 90%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
