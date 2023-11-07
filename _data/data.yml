@@ -45,13 +45,13 @@ sidebar:
   interests:
     title: Interests
     info:
-      - item: Computer Vision
+      - item: Keen interest in computer vision and its applications in real-world scenarios.
         link:
 
-      - item: Cycling
+      - item: Cycling and hiking
         link:
 
-      - item: Eating pizza
+      - item: Eating pizza 
         link:
 
 career-profile:
@@ -66,17 +66,17 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: BSc in Computer Science
+    - degree: BSc in Computer Science (part-time)
       university: Korean Open University
-      time: 2023 - now
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      time: In progress
+      # details: |
+      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #   pretium quis, sem.
+      #     - Bullet point
+      #     - Bullet point
     - degree: MS in Smart Cities
       university: Sungkyunkwan University
       time: 2020 - 2022
@@ -231,46 +231,6 @@ experiences:
         - Facilitated effective communication between Korean and Russian technical teams during the installation, calibration, and maintenance of medical equipment.
         - Directed the import/export documentation for medical devices, maintaining strict compliance with international trade laws and regulations.
 
-# experiences:
-#   title: Experiences
-#   info:
-#     - role: Lead Developer
-#       time: 2015 - Present
-#       company: Startup Hubs, San Francisco
-#       details: |
-#         Describe your role here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#         Cum sociis natoque penatibus et magnis dis parturient montes,
-#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#         pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-#         enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-#         error sit voluptatem accusantium doloremque laudantium, totam rem
-#         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-#         architecto beatae vitae dicta sunt explicabo.
-#           - Bullet point
-#           - Bullet point
-#     - role: Senior Software Engineer
-#       time: 2014 - 2015
-#       company: Google, London
-#       details: |
-#         Describe your role here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#         Cum sociis natoque penatibus et magnis dis parturient montes,
-#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#         pellentesque eu, pretium quis, sem.
-#           - Bullet point
-#           - Bullet point
-#     - role: UI Developer
-#       time: 2012 - 2014
-#       company: Amazon, London
-#       details: |
-#         Describe your role here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#         Cum sociis natoque penatibus et magnis dis parturient montes,
-#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#         pellentesque eu, pretium quis, sem.
-#           - Bullet point
-#           - Bullet point
 
 # certifications:
 #   title: Certifications
@@ -382,36 +342,29 @@ publications:
       conference: "Proceedings of the 37th ISARC, Kitakyushu, Japan, p 1152-1159, ISBN 978-952-94-3634-7, ISSN 2413-5844, 2020"
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills
 
   toolset:
 
-  - name: Javascript & Typescript
-    level: 98%
+  - category: Frontend
+    items: React.js, Next.js, TypeScript, Redux, Saga, Mobix, Tailwind
 
-  - name: NextJS & ReactJS
-    level: 98%
+  - category: Backend
+    items: Express.js, FastAPI, Flask, REST API, GraphQL, Socket.io
 
-  - name: Python & FastAPI
-    level: 98%
+  - category: Database
+    items:  MongoDB, InfluxDB, Redis, SQL (MySQL, PostgreSQL)
+    
+  - category: DevOps
+    items:  Docker, Nginx, AWS, CI/CD
 
-  - name: HTML5 & CSS
-    level: 95%
-  
-  - name: Docker
-    level: 95%
-  
-  - name: Git
-    level: 95%
+  - category: Tools
+    items:  Git, Jest, Cypress, Grafana, Prometheus, Flower
 
-  - name: Nginx
-    level: 95%
-  
-  - name: Linux
-    level: 95%
-  
-  - name: SQL
-    level: 90%
+  - category: Python
+    items:  Tensorflow, Pytorch, OpenCV, Scikit-learn, Pandas, Numpy, Matplotlib, Streamlit
+
+
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
