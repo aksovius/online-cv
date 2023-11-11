@@ -1,6 +1,14 @@
 <head>
   <title>{{ site.title }}</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKD2DMDGHD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
 
+  gtag('config', 'G-QKD2DMDGHD');
+</script>
   <!-- Meta -->
   <meta charset="utf-8">
   {% if site.chrome_mobile_color %}
@@ -28,14 +36,5 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
  
-  {% if site.analytics %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics}}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{site.analytics}}');
-  </script>
-  {% endif %}
+ 
 </head>
